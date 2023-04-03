@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>汤太咸</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-04-03T06:23:23.873Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2023/04/03/MyBlog/"/>
+    <id>http://example.com/2023/04/03/MyBlog/</id>
+    <published>2023-04-03T06:23:02.905Z</published>
+    <updated>2023-04-03T06:23:23.873Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="bu6030-github-io"><a href="#bu6030-github-io" class="headerlink" title="bu6030.github.io"></a>bu6030.github.io</h1><p>个人网站</p><p>测试博客第一篇</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;bu6030-github-io&quot;&gt;&lt;a href=&quot;#bu6030-github-io&quot; class=&quot;headerlink&quot; title=&quot;bu6030.github.io&quot;&gt;&lt;/a&gt;bu6030.github.io&lt;/h1&gt;&lt;p&gt;个人网站&lt;/p&gt;
+&lt;p&gt;测试</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
