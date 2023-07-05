@@ -1,2 +1,5 @@
-http://example.com/2023/04/03/MyBlog/
-http://example.com/
+http://bu6030.github.io/2023/03/16/MyBlog/
+http://bu6030.github.io/
+http://bu6030.github.io/tags/%E5%90%8E%E7%AB%AF/
+http://bu6030.github.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/
+http://bu6030.github.io/categories/%E5%90%8E%E7%AB%AF/

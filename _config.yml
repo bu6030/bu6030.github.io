@@ -5,7 +5,7 @@ keywords: null
 author: 汤太咸
 language: zh-CN
 timezone: ''
-url: http://example.com
+url: http://bu6030.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -62,3 +62,6 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+toc:
+  max_depth: 3 # 目录的最大深度，根据需要进行调整
+  list_number: true # 在目录项中显示编号
