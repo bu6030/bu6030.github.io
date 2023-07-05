@@ -114,7 +114,7 @@ navbar:
   links:
     Download on GitHub:
       icon: fab fa-github
-      url: https://github.com/wulong-tea
+      url: https://github.com/bu6030
 # Page footer configurations
 footer:
   # Copyright text
@@ -234,12 +234,12 @@ widgets:
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
-    follow_link: https://github.com/wulong-tea
+    follow_link: https://github.com/bu6030
     # Links to be shown on the bottom of the profile widget
     social_links:
       Github:
         icon: fab fa-github
-        url: https://github.com/wulong-tea
+        url: https://github.com/bu6030
       RSS:
         icon: fas fa-rss
         url: /
