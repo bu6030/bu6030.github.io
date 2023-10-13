@@ -15,10 +15,10 @@ for filename in os.listdir(folder_path):
 
         # 在这里可以对图片进行处理或进行其他操作
         # 例如，可以调用image.show()显示图片
-        left = 0
+        left = 100
         top = 500
-        right = 1000
-        bottom = 1500
+        right = 900
+        bottom = 1300
 
         # 剪切图片
         cropped_image = image.crop((left, top, right, bottom))
