@@ -17,8 +17,8 @@ for filename in os.listdir(folder_path):
         # 例如，可以调用image.show()显示图片
         left = 100
         top = 500
-        right = 900
-        bottom = 1300
+        right = 1030
+        bottom = 1430
 
         # 剪切图片
         cropped_image = image.crop((left, top, right, bottom))
