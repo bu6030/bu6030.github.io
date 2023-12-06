@@ -1,5 +1,7 @@
 echo 开始压缩文件
 python3 change_qr_code.py
+echo 删除WechatIMG274.jpeg
+rm WechatIMG274.jpeg
 echo 开始上传文件
 git add WechatIMG274.jpeg
 cd $USER_ZDOTDIR/Documents/git_code/bu6030.github.io/docs/images/
