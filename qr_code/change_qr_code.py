@@ -33,8 +33,7 @@ for filename in os.listdir(folder_path):
         # 修改图片名称
         new_filename = "../docs/images/wechat-group-qr-code.png"
 
-        resized_image.save(new_filename, "JPEG")
+        rgb_image.save(new_filename, "JPEG")
 
         # 关闭图片文件
         image.close()
-
