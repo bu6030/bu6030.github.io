@@ -1,5 +1,5 @@
 #!/bin/bash
-file_path="./WechatIMG274.jpeg"
+file_path="WechatIMG274.jpeg"
 # 判断文件是否存在
 if [ -e "$file_path" ]; then
     echo "文件存在，继续执行脚本"
