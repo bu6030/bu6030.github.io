@@ -1,6 +1,7 @@
 #!/bin/bash
+source /etc/profile
 cd $USER_ZDOTDIR/Documents/git_code/bu6030.github.io/qr_code
-file_path=WechatIMG274.jpeg
+file_path=$USER_ZDOTDIR/Documents/git_code/bu6030.github.io/qr_code/WechatIMG274.jpeg
 echo "Checking if file exists: $file_path"
 # 判断文件是否存在
 if [ -e "$file_path" ]; then
