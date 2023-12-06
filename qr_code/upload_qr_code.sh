@@ -1,11 +1,14 @@
 #!/bin/bash
-file_path="WechatIMG274.jpeg"
+cd $USER_ZDOTDIR/Documents/git_code/bu6030.github.io/qr_code
+file_path=WechatIMG274.jpeg
+echo "Checking if file exists: $file_path"
 # 判断文件是否存在
 if [ -e "$file_path" ]; then
     echo "文件存在，继续执行脚本"
     # 在这里可以继续编写脚本的其他部分
 else
     echo "文件不存在，退出脚本"
+    git push origin main
     exit 1  # 退出脚本，可以使用不同的退出码
 fi
 echo 开始压缩文件
