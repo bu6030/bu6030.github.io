@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # 定义文件夹路径
-folder_path = "/Users/XuesongBu/Documents/git_code/bu6030.github.io/qr_code/"
+folder_path = "./"
 
 for filename in os.listdir(folder_path):
     # 检查文件是否以.jpg为扩展名
@@ -31,7 +31,7 @@ for filename in os.listdir(folder_path):
         rgb_image.paste(resized_image, (0, 0))
 
         # 修改图片名称
-        new_filename = "/Users/XuesongBu/Documents/git_code/bu6030.github.io/docs/images/wechat-group-qr-code.png"
+        new_filename = "../docs/images/wechat-group-qr-code.png"
 
         resized_image.save(new_filename, "JPEG")
 
