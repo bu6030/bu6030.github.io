@@ -1,3 +1,13 @@
+#!/bin/bash
+file_path="./WechatIMG274.jpeg"
+# 判断文件是否存在
+if [ -e "$file_path" ]; then
+    echo "文件存在，继续执行脚本"
+    # 在这里可以继续编写脚本的其他部分
+else
+    echo "文件不存在，退出脚本"
+    exit 1  # 退出脚本，可以使用不同的退出码
+fi
 echo 开始压缩文件
 python3 change_qr_code.py
 echo 删除WechatIMG274.jpeg
