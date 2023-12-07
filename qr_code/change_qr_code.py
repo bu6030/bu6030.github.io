@@ -24,7 +24,7 @@ for filename in os.listdir(folder_path):
         cropped_image = image.crop((left, top, right, bottom))
 
         # 修改图片大小
-        new_size = (350, 350)
+        new_size = (200, 200)
         resized_image = cropped_image.resize(new_size)
 
         rgb_image = Image.new("RGB", resized_image.size)
